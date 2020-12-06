@@ -1,0 +1,1 @@
+import osimport timeserver = 'Printserver'printer = 'NetMatrix'file = '.\\reclame.txt'timer = 13count = 270cmd = 'print /d:\\\\' + server + '\\' +  printer + ' ' + filefor i, c in enumerate(range(count)):    print 'send ' + str(i) + '/' + str(count)    os.system(cmd)    time.sleep(timer)
